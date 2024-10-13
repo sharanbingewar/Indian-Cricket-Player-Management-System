@@ -83,19 +83,7 @@ MERN_Final_Project/
 2. **MongoDB**: MongoDB Atlas is used as the cloud database to store player profiles. We use **Mongoose** to communicate with the database and perform operations.
 
 
-
-## **⚙️ Challenges & Solutions**
-
-**1. CORS Errors**  
-We faced **CORS issues** while trying to access the backend API from the frontend. Solution: Implemented a simple **CORS middleware** in Express to resolve cross-origin request problems.
-
-**2. Data Validation**  
-Validating data before saving it to the database is critical. Mongoose was used to define validation rules for player data, such as ensuring names are not empty or invalid.
-
-**3. Search Functionality**  
-Initially, our search was slow. We optimized the search query by using **MongoDB text search** and limiting the number of results shown.
-
-**🔓 How to Execute**
+## **🔓 How to Execute**
 1.	Clone the Repository:
 git clone https://github.com/sharanbingewar/MERN_Final_Project.git
 
@@ -138,6 +126,17 @@ http://localhost:5003/api/players
 Once both the frontend and backend are running, you can test the user interface:
 URL: Go to `http://localhost:5003 in your browser. Where you can add, update, delete, and search for players directly through the user interface.
 
+
+## **⚙️ Challenges & Solutions**
+
+**1. CORS Errors**  
+We faced **CORS issues** while trying to access the backend API from the frontend. Solution: Implemented a simple **CORS middleware** in Express to resolve cross-origin request problems.
+
+**2. Data Validation**  
+Validating data before saving it to the database is critical. Mongoose was used to define validation rules for player data, such as ensuring names are not empty or invalid.
+
+**3. Search Functionality**  
+Initially, our search was slow. We optimized the search query by using **MongoDB text search** and limiting the number of results shown.
 
 
 ## **🔮 Future Improvements**
