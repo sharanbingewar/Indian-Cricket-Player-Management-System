@@ -95,6 +95,49 @@ Validating data before saving it to the database is critical. Mongoose was used 
 **3. Search Functionality**  
 Initially, our search was slow. We optimized the search query by using **MongoDB text search** and limiting the number of results shown.
 
+**🔓 How to Execute**
+1.	Clone the Repository:
+git clone https://github.com/sharanbingewar/MERN_Final_Project.git
+
+2. Install Dependencies
+Once the project is cloned, you need to install the necessary dependencies for both the backend and frontend.
+cd Indian-Cricket-Player-Management-System/server
+npm install express
+npm install mongoose
+npm install cors
+npm install body-parser
+
+Now, navigate to the frontend directory and install the client-side dependencies:
+cd ../client
+npm install
+npm install react-scripts
+npm install axios
+
+3. Set Up Environment Variables
+You will need to configure the environment variables for the backend (Node.js) to work with MongoDB Atlas or your local MongoDB instance. Create a .env file inside the `server` folder and add the following:
+
+MONGODB_URI=mongodb+srv://sbingewar9999:ij6hzkPL89UAnk5r@cricketteamcluster.devyf.mongodb.net/IndianCricketteam?retryWrites=true&w=majority
+
+PORT=5003 
+
+4. Run the Application:
+Now that all dependencies are installed and environment variables are set, you can run both the backend and frontend of the application.
+•	Start the backend: server
+cd ../server
+server % node server.js
+•	Start the frontend: client
+Open a new terminal window and navigate to the client folder, then run:
+cd ../client
+client % npm start
+
+5. Test the API Using Postman:
+To test the backend API functionality (CRUD operations) directly, you can use Postman. 
+http://localhost:5003/api/players
+
+6. Test the Frontend in the Browser:
+Once both the frontend and backend are running, you can test the user interface:
+URL: Go to `http://localhost:5003 in your browser. Where you can add, update, delete, and search for players directly through the user interface.
+
 
 
 ## **🔮 Future Improvements**
