@@ -3,7 +3,7 @@ A full-stack MERN application featuring API calls, CRUD operations, and a MongoD
 
 ## **Introduction**
 
-Welcome to the **Indian Cricket Player Management System**, a full-stack MERN application that lets you manage and interact with cricket players seamlessly. Built as a final project, this system integrates all the concepts we've learned, showcasing the power of the **MERN Stack** (MongoDB, Express.js, React.js, Node.js).
+Welcome to the **Indian Cricket Player Management System**, a full-stack MERN application that lets you manage and interact with cricket players seamlessly. Built as a final project, this system integrates all the concepts I've learned, showcasing the power of the **MERN Stack** (MongoDB, Express.js, React.js, Node.js).
 
 This application serves as a **dynamic platform** where users can manage players, track their statistics, and perform CRUD (Create, Read, Update, Delete) operations—all while building a robust backend and a sleek, interactive frontend.
 
