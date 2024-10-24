@@ -1,7 +1,5 @@
-# Indian Cricket Player Management System
-A full-stack MERN application featuring API calls, CRUD operations, and a MongoDB-backed player collection.
-
 # **Indian Cricket Player Management System: A MERN Journey**
+A full-stack MERN application featuring API calls, CRUD operations, and a MongoDB-backed player collection.
 
 ## **Introduction**
 
